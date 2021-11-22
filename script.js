@@ -1,3 +1,8 @@
+
+$(function(){
+  console.log("Jquery est installé")
+})
+
 var particleCount = 800;
 var particleMax   = 1000;
 var sky           = document.querySelector('.sky');
