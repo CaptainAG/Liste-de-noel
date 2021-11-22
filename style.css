@@ -1,0 +1,75 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Poppins&display=swap');
+
+
+.sky {
+  
+    background: none repeat-y scroll 0 0 #34283F; 
+    color: #FFF;
+    padding: 12px;
+    display: block;
+   
+  }
+  
+  html, body {    
+      height: 100%;
+      width: 100%;
+  }
+  
+  body {
+      margin: 0;
+  }
+
+  header{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+  }
+
+  h1{
+    font-family: 'Hurricane', cursive;
+    color: #FFFF;
+    text-shadow:1px 1px 2px red;
+    font-size: 10rem;
+  }
+
+  @media screen and (max-width: 900px) {
+      h1{
+          font-size: 5rem;
+      }
+  }
+
+  #santa {
+    position: absolute;
+    top: 19rem;
+    left: 10rem;
+    width: 300px;
+    z-index: 100;
+  }
+
+  @media screen and (max-width: 768px) {
+    #santa {
+        position: absolute;
+        top: 6rem;
+        left: 0.5rem;
+        width: 300px;
+    }
+  }
+
+
+
+
+  h5{
+      color: black;
+  }
+
+  img{
+      max-height: 16rem;
+      
+  }
+
+  svg{
+    padding-bottom: 0.2rem;
+  }
